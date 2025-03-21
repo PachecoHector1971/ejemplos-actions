@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   saludar:
-    runs-on: ubuntu-lastest
+    runs-on: windows-lastest
     steps:
       - name:Muestra mesnaje hola mundo
         run: echo "hola mundo, Hector"
